@@ -14,9 +14,9 @@ async function populateEmployeeTable(employees) {
         const headerRow = thead.insertRow();
         headerRow.innerHTML = `
             <th>Full Name</th>
-            <th>Department</th>
             <th>Date of Birth</th>
             <th>Email</th>
+            <th>Department</th>
             <th>Action</th>
         `;
     }
